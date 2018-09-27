@@ -2,7 +2,7 @@ version: "3"
 
 services:
     alfresco:
-        image: pleosoft/pleosoft-alfresco:6.0.7-ga
+        image: pleosoft/alfresco:6.0.7-ga
         environment:
             JAVA_OPTS : "
                 -Ddb.driver=org.postgresql.Driver
